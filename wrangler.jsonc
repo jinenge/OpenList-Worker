@@ -1,5 +1,5 @@
 {
-  "name": "openlist-tsworkers",
+  "name": "openlist-worker",
   "main": "src/backend/worker.ts",
   "compatibility_date": "2026-08-04",
   "compatibility_flags": ["nodejs_compat"],
@@ -22,7 +22,11 @@
     }
   ],
   "vars": {
-    "DB_DRIVER": "d1",
+    "CF_KV_UUID": "3e602a8437f64ef59c58629ae1d33f30",
+    "DB_CIPHER": "none",
+    "DB_DRIVER": "auto",
+    "DB_FORMAT": "2c1b9a18-bdad-4a47-b79d-b5013a0ee58e",
+    "ENVIRONMENT": "production",
     "JWT_SECRET": "4920890f3226a4511798b0692405019818800258691438799331511283005167"
   }
 }
