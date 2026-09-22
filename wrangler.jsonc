@@ -5,13 +5,10 @@
   "compatibility_flags": ["nodejs_compat"],
   "workers_dev": false,
   "preview_urls": false,
-
   "assets": {
     "directory": "./dist",
     "binding": "ASSETS"
   },
-{
-  // ...
   "d1_databases": [
     {
       "binding": "d1",
@@ -24,5 +21,8 @@
       "id": "3e602a8437f64ef59c58629ae1d33f30"
     }
   ],
-  // ...
+  "vars": {
+    "DB_DRIVER": "d1",
+    "JWT_SECRET": "4920890f3226a4511798b0692405019818800258691438799331511283005167"
+  }
 }
