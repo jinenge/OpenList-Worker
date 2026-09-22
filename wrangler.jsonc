@@ -23,8 +23,7 @@
   "vars": {
     "CF_KV_UUID": "3e602a8437f64ef59c58629ae1d33f30",
     "DB_CIPHER": "none",
-    "DB_DRIVER": "auto",
-    "DB_FORMAT": "d1",
+    "DB_DRIVER": "d1",
     "ENVIRONMENT": "production",
     "JWT_SECRET": "4920890f3226a4511798b0692405019818800258691438799331511283005167"
   }
